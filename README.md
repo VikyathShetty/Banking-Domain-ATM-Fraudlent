@@ -59,4 +59,26 @@ After merging all datasets on the basis of the ID, we have a consolidated datase
 
 ![heatmap is a useful tool for visualizing the correlation between columns in a dataset.](https://github.com/VikyathShetty/Banking-Domain-ATM-Fraudlent/blob/main/images/Screenshot%202024-12-10%20115522.png)
 
+## Machine Learning Models and Evaluation
+In this project, the training data was split into feature variables (X) and target variable (y) for training and testing purposes. We then applied six different machine learning models to determine which one provided the best performance in terms of accuracy. 
+
+The models used are:
+
+**Logistic Regression**
+
+**Support Vector Machine (SVM)**
+
+**K-Nearest Neighbors (KNN)**
+
+**Decision Tree**
+
+**Random Forest**
+
+**Voting Classifier**
+
+After evaluating all the models, the Random Forest classifier yielded the highest accuracy, outperforming the other models.
+## Vislual Representation 
+
+![BarPlot to check accuracy of the model](https://github.com/VikyathShetty/Banking-Domain-ATM-Fraudlent/blob/main/images/Screenshot%202024-12-10%20120556.png)
+
 
