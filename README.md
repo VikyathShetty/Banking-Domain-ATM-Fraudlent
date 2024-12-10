@@ -82,3 +82,29 @@ After evaluating all the models, the Random Forest classifier yielded the highes
 ![BarPlot to check accuracy of the model](https://github.com/VikyathShetty/Banking-Domain-ATM-Fraudlent/blob/main/images/Screenshot%202024-12-10%20125428.png)
 
 
+
+
+### Technologies Used
+
+**Programming Language**: Python
+
+** Frameworks & Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib
+
+** Data Handling:**  CSV files, Merged datasets
+
+** Visualization:** Heatmaps, Bar plots (Matplotlib)
+
+
+### Skills: 
+
+** Machine Learning:** Training and evaluation using Logistic Regression, SVM, KNN, Decision Tree, Random Forest, and Voting Classifier
+
+** Data Analysis:** Preprocessing, merging datasets, handling missing values, correlation analysis
+
+** Visualization Skills:** Heatmap creation, accuracy comparison with bar plots
+
+** Domain Knowledge:** Banking systems, fraud detection methodologies
+
+
+
+
