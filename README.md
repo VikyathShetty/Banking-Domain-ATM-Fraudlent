@@ -28,4 +28,35 @@ This dataset provides detailed information such as transaction counts, transacti
 [Dataset](https://github.com/VikyathShetty/Banking-Domain-ATM-Fraudlent)
 
 
+## Data Preprocessing and Merging
+### Concatenating Train and Test Data:
+
+The train and test datasets are combined into a single dataset to facilitate consistent preprocessing and analysis. This merged dataset serves as the primary data source for model training and evaluation.
+
+### Handling Missing Values:
+
+To manage missing values, we replace them with the median value present in the respective columns of the dataset. This approach helps maintain the integrity of the data and ensures the model is trained on a complete dataset.
+
+### Merging Geo_Scores:
+
+Geo_Scores are combined with the main dataset based on a unique identifier (ID). This merging ensures that the number of columns is consistent across all datasets, allowing for a unified dataset structure.
+
+### Merging Lambda_Wts:
+
+The Lambda_Wts dataset, which contains data regarding individuals or groups identified by a unique ID, is merged with the main dataset similarly to Geo_Scores. This step allows for group-level analysis and tracking of transaction patterns.
+
+### Merging Instance Scores:
+
+Instance Scores, which represent the risk or quality associated with a particular transaction, customer, or data instance, are merged based on the ID of the group or individual. This helps in 
+assessing the overall risk profile of each entity in the dataset.
+
+### Final Dataset Structure:
+
+After merging all datasets on the basis of the ID, we have a consolidated dataset with all relevant columns, ready for analysis and model training
+
+
+## Heatmap
+
+![heatmap is a useful tool for visualizing the correlation between columns in a dataset.](https://github.com/VikyathShetty/Banking-Domain-ATM-Fraudlent/blob/main/images/Screenshot%202024-12-10%20115522.png)
+
 
