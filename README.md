@@ -79,6 +79,6 @@ The models used are:
 After evaluating all the models, the Random Forest classifier yielded the highest accuracy, outperforming the other models.
 ## Vislual Representation 
 
-![BarPlot to check accuracy of the model](https://github.com/VikyathShetty/Banking-Domain-ATM-Fraudlent/blob/main/images/Screenshot%202024-12-10%20120556.png)
+![BarPlot to check accuracy of the model](https://github.com/VikyathShetty/Banking-Domain-ATM-Fraudlent/blob/main/images/Screenshot%202024-12-10%20125428.png)
 
 
